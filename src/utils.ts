@@ -24,7 +24,7 @@ export function parseLocation(location : string) : ParsedLocation {
         host: hostname!,
         port: port ? +port : undefined,
         database,
-        table
+        table: table.slice(0, 64)
     }
     
 }
