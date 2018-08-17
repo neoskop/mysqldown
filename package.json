@@ -1,9 +1,8 @@
 {
   "name": "@neoskop/mysqldown",
-  "version": "0.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "version": "0.1.0-rc.0",
   "main": "lib/index.js",
+  "license": "MIT",
   "typings": "lib/index.d.ts",
   "scripts": {
     "test": "tsc && tape tests/tests.js"
