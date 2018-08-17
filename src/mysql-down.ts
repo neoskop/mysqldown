@@ -15,10 +15,6 @@ import { MysqlIterator } from './mysql-iterator';
 
 const debug = require('debug')('mysqldown');
 
-export function mysqlDownFactory(location : string) {
-    return new MysqlDown(location);
-}
-
 export class MysqlDown extends AbstractLevelDOWN {
     static INSTANCES = new Map<string, MysqlDown>();
     
